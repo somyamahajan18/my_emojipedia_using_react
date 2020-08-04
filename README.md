@@ -8,7 +8,7 @@ My first react project. I have used:
   
    React components
    
-    React Props
+   React Props
     
  React DevTools
  
