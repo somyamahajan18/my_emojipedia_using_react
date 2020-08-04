@@ -2,11 +2,6 @@ import React from "react";
 import Emoji from "./emoji";
 import emojipedia from "../emojipedia";
 
-function createemoji(create) {
-  return (
-   
-  );
-}
 
 function App() {
   return (
