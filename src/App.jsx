@@ -4,11 +4,7 @@ import emojipedia from "../emojipedia";
 
 function createemoji(create) {
   return (
-    <Emoji
-      emojii={create.emoji}
-      namee={create.name}
-      meaningg={create.meaning}
-    />
+   
   );
 }
 
@@ -18,7 +14,13 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
-      <dl className="dictionary">{emojipedia.map(createemoji)}</dl>
+      <dl className="dictionary">{emojipedia.map(createemoji =>{
+           <Emoji
+      emojii={create.emoji}
+      namee={create.name}
+      meaningg={create.meaning}
+    />
+    )}</dl>
     </div>
   );
 }
